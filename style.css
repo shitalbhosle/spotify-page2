@@ -1,0 +1,247 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'DM Sans', sans-serif;
+}
+
+header {
+    display: flex;
+}
+
+aside {
+    background-color: #000;
+    color: #fff;
+    width: 230px;
+    height: 1080px;
+
+}
+
+.logo-container {
+    padding: 20px 35px;
+}
+
+.logo-container img {
+    width: 100%;
+}
+
+.home-container {
+    padding: 16px 25px;
+    display: flex;
+    align-items: center;
+    margin-left: 10px;
+    transition: all .5s ease-in-out;
+
+}
+
+
+.home-container p {
+    margin-left: 16px;
+}
+
+.home-container img {
+    width: 29.645px;
+    height: 32.116px;
+}
+
+.search-container {
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    width: 216px;
+    height: 40px;
+    border-radius: 6px;
+    transition: all .5s ease-in-out;
+    margin-bottom: 10px;
+
+}
+
+.search-container img {
+    width: 25.645px;
+    height: 32.116px;
+}
+
+.search-container p {
+    margin-left: 22px;
+}
+
+.library-container {
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    width: 216px;
+    height: 40px;
+    transition: all .5s ease-in-out;
+
+}
+
+.library-container p {
+    margin-left: 20px;
+}
+
+.playlist-container,
+.song-container {
+    padding: 14px 30px;
+    display: flex;
+    align-items: center;
+    width: 216px;
+    height: 40px;
+    margin-top: 14px;
+}
+
+.playlist-text {
+    color: #B3B3B3;
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 1.2px;
+    text-transform: uppercase;
+    padding: 14px 30px;
+    margin-top: 20px;
+}
+
+.playlist-container p,
+.song-container p,
+.episode-container p {
+    margin-left: 20px;
+}
+
+.plus-image {
+    background-color: #fff;
+}
+
+.song-image {
+    border-radius: 1px;
+    padding: 10px;
+    background: linear-gradient(135deg, #4000F4 0%, #603AED 22.48%, #7C6EE6 46.93%, #979FE1 65.71%, #A2B3DE 77.68%, #ADC8DC 88.93%, #C0ECD7 100%);
+}
+
+hr {
+    height: 2px;
+    background: #282828;
+    margin: 20px;
+    border: none;
+}
+
+.album-image {
+    padding-top: 60px;
+}
+
+.display-container {
+    background: linear-gradient(180deg, #90AEA7 0%, #000 89.7%);
+
+}
+
+.pop-container {
+    width: 1300px;
+    display: flex;
+    margin: auto;
+
+
+}
+
+.pop-left img {
+    padding: 70px 10px 10px 24px;
+
+}
+
+.pop-right {
+    padding-top: 100px;
+}
+
+#playlist {
+    color: #FFF;
+    font-size: 13px;
+    font-weight: 500;
+    letter-spacing: -0.26px;
+    text-transform: uppercase;
+}
+
+.pop-right h1 {
+    color: #FFF;
+    font-size: 70px;
+    font-weight: 900;
+    letter-spacing: -1.8px;
+}
+
+.lorem-text {
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: -0.30px;
+    opacity: 0.7;
+    margin-bottom: 5px;
+}
+
+.spotify-span {
+    color: #FFF;
+    font-size: 15px;
+    letter-spacing: -0.3px;
+    opacity: 0.7;
+    margin-top: 5px;
+}
+
+.songlist {
+    padding: 25px 35px;
+}
+
+.playbtn img {
+    margin-right: 10px;
+}
+
+.songlist {
+    height: 100vh;
+    background-color: #000;
+    color: #fff;
+    opacity: 0.7;
+
+}
+
+.listofsong {
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    width: 1211px;
+    height: 54px;
+    margin-top: 10px;
+    transition: all 1s ease-in-out;
+
+
+}
+
+.listofsong:hover {
+    width: 1211px;
+    height: 90px;
+    background-color: #a09696;
+    opacity: 0.7;
+    padding: 20px;
+    border-radius: 5px;
+    color: black;
+
+}
+
+.inner-title {
+    display: flex;
+    align-items: center;
+}
+
+.right-icon {
+    display: flex;
+    align-items: center;
+}
+
+.play-btn,
+.small_image {
+    margin-right: 5px;
+}
+
+.number {
+    margin-right: 5px;
+}
+
+.album-text,
+.data-text,
+.right-icon {
+    margin-top: 20px;
+}
